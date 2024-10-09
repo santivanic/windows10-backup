@@ -3,7 +3,7 @@ Makes backup of a clean image of a running Windows 10 using powershell
 
 ## Synopsis
 
-A powershell script that will use DISM tool to check if image is clean, if not it will try to restore health. Then if will sun SFC tool to check if any corrupt files and fix them. Only if both DISM and SFC are ok it will proceed to perform a full backup of C: using wbadmin.exe 
+A powershell script that will use DISM tool to check if image is clean, if not it will try to restore health. Then if will run SFC tool to check if any corrupt files and fix them. Only if both DISM and SFC are ok it will proceed to perform a full backup of C: using wbadmin.exe 
 
 ## Variables
 
