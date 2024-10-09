@@ -7,7 +7,7 @@ A powershell script that will use DISM tool to check if image is clean, if not i
 
 ## Variables
 
-Replace value of "bktarget", it can be network location (make sure you have write access) or a different drive
+Replace value of "bktarget", it can be network location (make sure you have write access) or a different drive </br>
 Logs are written to C:\WINDOWS\Logs\WindowsBackup\WindowsBackupAutomation.log but it can be changed
 
 ## Usage
